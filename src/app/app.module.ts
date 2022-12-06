@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TemplateModule } from './template/template.module';
 import { SidemenuModule } from './template/components/sidemenu/sidemenu.module';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     TemplateModule,
     BrowserAnimationsModule,
     SidemenuModule,
+    HttpClientModule
 
   ],
   providers: [],

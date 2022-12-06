@@ -33,10 +33,10 @@ h3 {
 }
 
 .imagen {
-    background-image: url(/descicion-empleado/src/assets/images/main-p-500.png);
+    background-image: url('../../../assets/images/main.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 300px;
     position: relative;
     /*padre lleva posisicon relativa*/
     margin-bottom: 2rem;

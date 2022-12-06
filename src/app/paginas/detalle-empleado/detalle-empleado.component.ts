@@ -1,4 +1,5 @@
 import { Component,OnInit } from '@angular/core';
+import { DetalleEmpleadoService } from '../services/detalle-empleado.service';
 
 @Component({
   selector: 'app-detalle-empleado',
@@ -6,7 +7,16 @@ import { Component,OnInit } from '@angular/core';
   styleUrls: ['./detalle-empleado.component.css']
 })
 export class DetalleEmpleadoComponent implements OnInit {
-  constructor() {}
-  ngOnInit(): void { }
+
+  constructor(private empleadoService: DetalleEmpleadoService) {}
+  ngOnInit(): void {
+
+    this.empleadoService.getEmployee().subscribe( resp => console.log(resp) );
+  }
+
+
+
 
 }
+
+
