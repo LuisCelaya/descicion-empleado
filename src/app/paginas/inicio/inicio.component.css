@@ -1,43 +1,41 @@
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-body {
-    font-size: 16px;
-    /*1 rem = 10px*/
-    font-family: 'Krub', sans-serif;
-}
-
-h1 {
-    font-size: 3.8rem;
-}
-
-
-/*reglas de tipografia*/
-
-h2 {
-    font-size: 2.8rem;
-    padding: 1rem;
-}
-
-h3 {
-    font-size: 1.8rem;
-}
-
-h1,
-h2,
-h3 {
-    text-align: center;
-}
-
-.imagen {
-    background-image: url(/descicion-empleado/src/assets/images/main-p-500.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    position: relative;
-    /*padre lleva posisicon relativa*/
-    margin-bottom: 2rem;
-}
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        font-size: 16px;
+        /*1 rem = 10px*/
+    }
+    
+    h1 {
+        font-size: 3.8rem;
+        font-family: 'Public Sans', sans-serif;
+    }
+    /*reglas de tipografia*/
+    
+    h2 {
+        font-size: 2.8rem;
+        padding: 1rem;
+    }
+    
+    h3 {
+        font-size: 1.8rem;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+    }
+    
+    .imagen {
+        background-image: url(../../../assets/images/logo500.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+        /*padre lleva posisicon relativa*/
+        margin-left: 2rem;
+    }
